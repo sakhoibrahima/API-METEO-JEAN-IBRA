@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="style.css">
+    <title>METEO</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+  </head>
+  <body>
+      <div class="weather-container">               
+    <input id="queryLoc" type="text" value="" />
+    <input type="button" value="Ecris wesh"  onclick="buttonClickGET()"  />
+    <p id="zone_meteo"> </p>
+    <p id="zone_humidite"> </p>
+    <img id="zone_icone" src="">
+    <p id="zone_lieu"></p>
+    <p id="zone_timezone"></p>  
+    </div>
+
+    <script src="meteo.js"></script>
+  </body>
+</html>
